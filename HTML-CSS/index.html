@@ -6,17 +6,24 @@
     <link rel="icon" type="image/x-icon" href="../logo/favicon.ico" />
     <title>hoc web co ban</title>
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="./baitap.js"></script> -->
-    <!--  tai song song voi html  xong moi toi-->
-    <!-- <script src="./baitap.js" defer></script> -->
-
     <!--  tai song song voi html  nao xong r chay chay lun-->
-    <script src="./baitap.js" async></script>
+    <script src="./baitap.js" defer></script>
   </head>
   <body>
-    <div class="class-1 groupclass" id="id1">content 1</div>
-    <div class="groupclass">content 2</div>
-    <div class="groupclass" id="id2">content 3</div>
-    <!-- <script src="./baitap.js"></script> -->
+    <a href="https://codepen.io/"> nguon tham khao</a>
+    <a href="https://sweetalert2.github.io/"> button</a>
+    <hr />
+    <button
+      style="width: 500px; height: 500px"
+      type="button"
+      onclick="alert('kietdz')"
+    >
+      Click me
+    </button>
+    <hr />
+    <div id="id1">show</div>
+    <script>
+      document.getElementById("id1").innerHTML = "Hello, World!";
+    </script>
   </body>
 </html>
